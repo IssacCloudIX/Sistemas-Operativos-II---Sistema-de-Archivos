@@ -8,13 +8,17 @@ Las principales librerías utilizadas fueron:
     stdlib.h
     Este encabezado define varias funciones de propósito general, incluida la gestión de memoria dinámica, entre otros.
     sys/types.h
-     El archivo define los tipos de datos utilizados en el código fuente del sistema.
+    El archivo define los tipos de datos utilizados en el código fuente del sistema.
     sys/stats.h
-     El encabezado facilita el recopilamiento de la información de los atributos de archivos.
+    El encabezado facilita el recopilamiento de la información de los atributos de archivos.
     fcntl.h
-     Esta libreria se encarga de opciones de control de archivos.
+    Esta librería se encarga de opciones de control de archivos.
     dirent.h
-    Esta libreria es utilizada para operaciones de acceso a directorios.
+    Esta librería es utilizada para operaciones de acceso a directorios.
+    libgen.h
+    Esta librería es utilizada para obtener las rutas absolutas de los archivos.
+    unistd.h
+    Esta librería es utilizada para acceder a la API de POSIX, y utilizar los comandos de bash de Linux a través del lenguaje de programación C
 
 El proyecto en general cuenta con los siguientes programas, cada uno es independiente del otro, aunque se pueden llamar para complementar sus funciones:
 
